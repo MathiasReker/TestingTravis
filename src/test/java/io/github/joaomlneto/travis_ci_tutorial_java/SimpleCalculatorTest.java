@@ -1,29 +1,11 @@
-package io.github.joaomlneto.travis_ci_tutorial_java;
+package test.com.app.model;
 
-import java.util.*;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 
-import static org.junit.Assert.*;
-import org.junit.*;
-
-public class SimpleCalculatorTest {
-	@Test
-	public void testAdd() {
-		SimpleCalculator calc = new SimpleCalculator();
-		assertEquals(calc.add(1, 1), 2);
-	}
-	@Test
-	public void testSub() {
-		SimpleCalculator calc = new SimpleCalculator();
-		assertEquals(calc.sub(1, 1), 0);
-	}
-	@Test
-	public void testMul() {
-		SimpleCalculator calc = new SimpleCalculator();
-		assertEquals(calc.mul(3, 5), 15);
-	}
-	@Test
-	public void testDiv() {
-		SimpleCalculator calc = new SimpleCalculator();
-		assertEquals(calc.div(8, 2), 4);
-	}
+class TestTest {
+  @Test
+  public void testAdd() {
+    Assertions.assertEquals(1, 1);
+  }
 }
